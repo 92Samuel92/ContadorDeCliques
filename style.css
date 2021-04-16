@@ -1,0 +1,49 @@
+div{
+text-align:Center;
+font-size:50px;
+transform:translatey(100%);
+font-family:arial;
+font-size:72px;
+text-transform:uppercase;
+font-weight:700;
+animation: myAnim 2s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+body{background-image:url('https://i.pinimg.com/564x/00/46/43/00464386ecb40c89805a2c233d0624d5.jpg');}
+
+.btn{font-family:arial;
+font-size:72px;
+text-transform:uppercase;
+font-weight:700;
+border:none;
+padding:10px;
+cursor: pointer;
+display:block;
+transform:translatey(250%);
+margin-left:auto;
+margin-right:auto;
+border-radius:5px;
+}
+.btn-blue{background:#00a1ff;
+color:white;
+box-shadow:0 5px 0 #004973;}
+.btn-blue:hover{background:#004973;
+color:white;
+box-shadow:0 5px 0 #021f2f;}
+.btn-blue:active{
+position:relative;
+top:5px;
+box-shadow:none;}
